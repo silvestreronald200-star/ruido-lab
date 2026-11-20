@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12362d">
+  <meta name="description" content="Bitácora para monitoreo de ruido ambiental y generación de informes en Word.">
+  <title>RuidoLab Ambiental</title>
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./src/app.js"></script>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#inicio"><img src="./icon.svg" alt="" width="40" height="40"><span>RuidoLab<small>AMBIENTAL</small></span></a>
+  <div class="top-meta"><span class="status" id="net">Modo local</span><span class="top-label">BITÁCORA DE CAMPO</span></div>
+</header>
+<div class="shell">
+  <aside class="sidebar"><nav aria-label="Secciones del proyecto">
+    <a href="#inicio"><span>01</span> Proyectos</a><a href="#campo"><span>02</span> Campo</a><a href="#resultados"><span>03</span> Resultados</a><a href="#articulo"><span>04</span> Artículo Word</a>
+  </nav><div class="aside-copy"><strong>Trabajo en campo</strong><p>Los datos se guardan en este navegador. Exporta un respaldo antes de cambiar de dispositivo.</p></div></aside>
+  <main id="main"><p>Abriendo RuidoLab Ambiental…</p></main>
+</div>
+<div role="status" id="toast" class="toast" hidden></div>
+<noscript>Activa JavaScript para usar RuidoLab Ambiental.</noscript>
+</body>
+</html>
